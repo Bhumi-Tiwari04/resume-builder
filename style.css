@@ -1,0 +1,151 @@
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #E2DFD2; /* Light background for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: #40E0D0; /* Turquoise */
+}
+
+
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #FFFFF0;
+}
+
+.card-header {
+  background-color: #40E0D0; /* Turquoise */
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 1.5rem;
+}
+
+.card-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #36b3aa; /* Slightly darker Turquoise for labels */
+}
+
+.form-control {
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #b0f0e4;
+}
+
+.container.text-center button {
+  margin: 1rem 0;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #40E0D0; /* Turquoise */
+  border-color: #40E0D0;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #36b3aa; /* Darker Turquoise on hover */
+  border-color: #36b3aa;
+}
+
+.text-secondary {
+  font-style: italic;
+  color: #40E0D0; /* Turquoise */
+}
+
+.cv {
+  transition: background-color 0.5s ease;
+}
+
+.cv.generate-active {
+  background-color: #d0f8f7; /* Light Turquoise background for generated CV */
+}
+
+.cv.print-active {
+  background-color: #e9f7f7; /* Soft Mint background for print-ready CV */
+}
+
+.cv .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.cv .left,
+.cv .right {
+  flex: 1 1 calc(50% - 2rem);
+  background: #f4f1f9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cv .left h3.title,
+.cv .right h2 {
+  color: #40E0D0;
+  border-bottom: 2px solid #40E0D0;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.cv .left ul,
+.cv .right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cv .left ul li,
+.cv .right ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.cv .left ul li span.icon {
+  margin-right: 0.5rem;
+  color: #40E0D0; /* Turquoise for icons */
+}
+
+.cv .pic img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #40E0D0;
+  margin-bottom: 1rem;
+}
+
+#btnN button {
+  background-color: #40E0D0; /* Turquoise */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#btnN button:hover {
+  background-color: #36b3aa; /* Darker Turquoise on hover */
+}
+
+#btnN button:active {
+  transform: scale(0.95);
+}
